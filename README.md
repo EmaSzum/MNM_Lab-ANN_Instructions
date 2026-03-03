@@ -32,6 +32,7 @@ Phase code: Single phase: 0.0; multi phase: 1.0
 Prediction(s) from ANN: 0.049 0.047 1.000
 Prediction(s) from SVM: 0.000 0.000 1.000
 ```
+As shown in the example above, multiple formulas can be included at a single time and the output will show the results of each. This can save time as you do not need to run a new calculation for each individual formula.
 
 
 ## Common Errors
