@@ -1,5 +1,5 @@
 # ANN-Instructions
-This instruction mannula is intended to be used by the students working on the ANN model for HECC phase predictions in the Modeling of Nuclear Materials research group.
+This instruction manual is intended to be used by the students working on the ANN model for HECC phase predictions in the Modeling of Nuclear Materials research group.
 
 ## How to run
 After downloading the folder from github, follow the steps bellow to run the ANN.
