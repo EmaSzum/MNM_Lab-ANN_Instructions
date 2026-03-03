@@ -12,14 +12,14 @@ The ANN only runs in a tensorflow (tf) environment, so tensorflow must be instal
 `conda install tf`
 
 ### Create a New Environment
-The ANN will only run if a specifalized python environment is created. Attempting to run the ANN is the base environment will result in errors. Firsy, create this environment by running the command:  
+The ANN will only run if a specifalized python environment is created. Attempting to run the ANN is the base environment will result in errors. First, create this environment by running the command:  
 `conda create --name tf tensorflow`  
-After creating the environment, make sure that you are operating out of it by running:  
+After creating the environment, make sure that you are operating through it by running:  
 `conda activate tf`  
 You will know if you are successful if the blue dot switched from the base environment to the tf environment.
 
 ### Install Additional Libraries
-Install any additional libraries within the tf environment. The following were libraries I had to install, but you may need to install more:
+Install any additional libraries within the tf environment. The following were libraries I had to install, but you may need to install more:  
 `conda install conda-forge::pymatgen`  
 `conda install anaconda::scikit-learn`
 
