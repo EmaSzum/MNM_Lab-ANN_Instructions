@@ -40,6 +40,10 @@ As shown in the example above, multiple formulas can be included at a single tim
 -make sure to run the code from the tensorflow environment instead of the base environment. You know you are doing this correctly when the dot next to the tf environment is blue.  
 -if you are running into a path error try copying the path directly from the file you want and pasting it
 
+## References
+The original code can be found at the following link:
+https://github.com/jzhang-github/HECC_phase_prediction
+
 ## Questions?
 contact me at emals2@illinois.edu  
 (thank you Wenwen for showing me how to run the code!)
