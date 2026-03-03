@@ -17,7 +17,6 @@ After creating the environment, make sure that you are operating out of it by ru
 `conda activate tf`  
 You will know if you are successful if the blue dot switched from the base environment to the tf environment.
 
-
 ### Install Additional Libraries
 Install any additional libraries within the tf environment. The following were libraries I had to install, but you may need to install more:
 `conda install conda-forge::pymatgen`  
@@ -25,7 +24,7 @@ Install any additional libraries within the tf environment. The following were l
 
 ### Run!
 To test that the ANNN is working run the following line of code:  
-`python predict_from_formula.py --formula TiNbZr`  
+`WRAPT_DISABLE_EXTENSIONS=true python predict_modify.py --formula TiVCrNbTa VCrNbMoTa TiVCrZrMo` 
 If the ANN is working properly it should output:  
 ```
 Phase code: Single phase: 0.0; multi phase: 1.0
@@ -37,12 +36,7 @@ Prediction(s) from SVM: 0.000 0.000 1.000
 
 ## Common Errors
 -make sure to run the code from the tensorflow environment instead of the base environment. You know you are doing this correctly when the dot next to the tf environment is blue.  
--if you encounter this error when running the ANN:  
-```
-TypeError: this __dict__ descriptor does not support '_DictWrapper' objects
-```  
-run this instead:  
-`WRAPT_DISABLE_EXTENSIONS=true python predict_modify.py --formula TiNbZr`
+-if you are running into a path error try copying the path directly from the file you want and pasting it
 
 ## Questions?
 contact me at emals2@illinois.edu  
