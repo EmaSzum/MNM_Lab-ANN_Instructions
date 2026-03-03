@@ -42,4 +42,4 @@ As shown in the example above, multiple formulas can be included at a single tim
 
 ## Questions?
 contact me at emals2@illinois.edu  
-also, thank you Wenwen for showing me how to run the code!
+(thank you Wenwen for showing me how to run the code!)
